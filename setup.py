@@ -12,12 +12,11 @@ REQUIREMENTS = [
 DEV_REQUIREMENTS = [
     "bandit==1.7.1",  # Bandit 1.7.2 drops support for Python 3.6
     "black==22.*",
-    "coveralls == 3.*",
     "flake8==5.*",
     "isort==5.*",
     "mypy==0.971",
     "pdoc==12.*;python_version>='3.7'",
-    "pytest-cov==3.*",
+    "pytest-cov==4.*",
     "pytest-vcr==1.*",
     "pytest==7.*",
     "twine==3.8.*",  # Twine 4.0 drops support for Python 3.6
